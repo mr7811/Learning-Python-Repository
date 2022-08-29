@@ -35,3 +35,31 @@
 # elif p1 =="scissors" and p2 =="rock": print("p2 wins")
 # elif p1 =="scissors" and p2 =="paper": print("p1 wins")
 # else: print("invalid typing type again")
+
+
+# Take two lists, say for example these two:
+
+# 	a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+# 	b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+# and write a program that returns a list that contains only the elements that are common between the lists 
+
+# a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+# b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+# c = [y for y in a if y in b]
+# print(c)
+
+# Psuedo code: print out the range of numbers of the list then check if the length is greater than 1 if it is its not aprime number 
+
+
+# num = int(input("type a number to find if it is prime"))
+
+# listRange = list(range(1,num+1))
+
+# divisorList=[]
+
+# for number in listRange:
+#     if num % number == 0:
+#         divisorList.append(number)
+
+# if len(divisorList) > 2:print("it is not prime")
+# else: print("it is prime")
