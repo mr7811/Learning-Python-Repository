@@ -6,7 +6,7 @@ https://www.practicepython.org/
 
 # Problems done:
 
-1 to 11
+1 to 12
 
 Solved problems are currently commented out in test.py.
 
